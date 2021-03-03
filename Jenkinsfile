@@ -1,5 +1,4 @@
-pipeline {
-    agent { label 'java' }
+node {
     stage ('SCM checkout'){
        	git 'https://github.com/v4vlviv/api-testng-ar-allure'
     }
